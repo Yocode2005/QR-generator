@@ -9,7 +9,7 @@ function generatorQR(){ // function for creating qr
     }
     else{
         qrText.classList.add("error");
-        setTimeout(()=>{
+        setTimeout(()=>{ // settimeout function
             qrText.classList.remove("error");
         },1000);
     }
