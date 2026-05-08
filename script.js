@@ -10,7 +10,7 @@ function generatorQR(){ // function for creating qr
     else{
         qrText.classList.add("error");
         setTimeout(()=>{ // settimeout function
-            qrText.classList.remove("error");
+            qrText.classList.remove("error"); // for removinf error
         },1000); // for one sec.
     }
     
