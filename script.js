@@ -1,5 +1,5 @@
 let imgBox = document.getElementById("imgBox"); // for getting inbox
-let qrImage = document.getElementById("qrImage");
+let qrImage = document.getElementById("qrImage"); // for getting qrImage
 let qrText = document.getElementById("qrText");
 
 function generatorQR(){
