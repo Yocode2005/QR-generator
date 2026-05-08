@@ -1,4 +1,4 @@
-let imgBox = document.getElementById("imgBox");
+let imgBox = document.getElementById("imgBox"); // for getting inbox
 let qrImage = document.getElementById("qrImage");
 let qrText = document.getElementById("qrText");
 
