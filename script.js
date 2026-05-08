@@ -11,7 +11,7 @@ function generatorQR(){ // function for creating qr
         qrText.classList.add("error");
         setTimeout(()=>{ // settimeout function
             qrText.classList.remove("error");
-        },1000);
+        },1000); // for one sec.
     }
     
 }
